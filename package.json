@@ -1,0 +1,22 @@
+{
+  "name": "clean-up-string",
+  "version": "1.0.0",
+  "description": "Convert certain unicode characters into their ascii equivalents.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/clean-up-string.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlight/clean-up-string/issues"
+  },
+  "homepage": "https://github.com/unlight/clean-up-string#readme",
+  "dependencies": {
+    "phpfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "wru": "^0.2.7"
+  }
+}
