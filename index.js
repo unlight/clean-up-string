@@ -1,7 +1,6 @@
 var latins = require("./latins");
 var regexp = new RegExp("(" + Object.keys(latins).join("|") + ")", "g");
-var phpfn = require("phpfn");
-var trim = phpfn("trim");
+var trim = require('lodash.trim');
 
 function replaceFunc(oldChar) {
 	var result = latins[oldChar];
